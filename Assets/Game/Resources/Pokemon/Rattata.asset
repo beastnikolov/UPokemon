@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a3cdd62efe3fa48b69a88cf7938517, type: 3}
+  m_Name: Rattata
+  m_EditorClassIdentifier: 
+  name: Rattata
+  description: Bites anything when it attacks. Small and very quick, it is a common
+    sight in many places.
+  frontSprite: {fileID: 21300000, guid: a493c4d520d31744580fde01b3279731, type: 3}
+  backSprite: {fileID: 21300000, guid: c798299d4e4726e4485763631f8f89a9, type: 3}
+  type1: 1
+  type2: 0
+  maxHP: 30
+  attack: 56
+  defense: 35
+  spAttack: 25
+  spDefense: 35
+  speed: 72
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 33443e2876e797849a48193fd59367df, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 34309ed19b1210242addd7ae4424576f, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: 40c1c4eb5f9e7f946a588381347e8201, type: 2}
+    level: 7
